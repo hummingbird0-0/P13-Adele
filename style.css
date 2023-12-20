@@ -1,0 +1,346 @@
+body {
+    padding: 40px;
+    font-family: "Rampart One", sans-serif;
+  
+    /*'DotGothic16', sans-serif;*/
+    background-color: pink;
+  }
+  
+  .nav-item {
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: "Train One", sans-serif;
+  }
+  
+  header img{
+    width: 30px;
+  }
+  
+  
+  .u--bounce h1 {
+    font-family: "Rampart One", sans-serif;
+  
+    background: linear-gradient(
+      to right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -webkit-linear-gradient(
+      left,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -o-linear-gradient(
+      right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -moz-linear-gradient(
+      right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 100px;
+  }
+  
+  .imgAdele {
+    width: 200px;
+    border-radius: 40px;
+  }
+  
+  .tab-content {
+    padding: 50px;
+    background-color: #ffedb3;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+  
+  .tabTitle {
+    font-family: "Rampart One", sans-serif;
+  }
+  
+  ul {
+    margin: 0px 0px 100px 0px;
+    padding: 0px;
+  
+    height: 50px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .tab1Photo {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+  
+  header button {
+    padding: 0px;
+    margin: 0px;
+    width: 25%;
+    height: 90px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /**poyon**/
+  /* Bounce */
+  @-webkit-keyframes bounce {
+    0%,
+    20%,
+    53%,
+    80%,
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+    }
+    40%,
+    43% {
+      -webkit-transform: translate3d(0, -6vh, 0);
+    }
+    70% {
+      -webkit-transform: translate3d(0, -3vh, 0);
+    }
+    90% {
+      -webkit-transform: translate3d(0, -1vh, 0);
+    }
+  }
+  @-moz-keyframes bounce {
+    0%,
+    20%,
+    53%,
+    80%,
+    100% {
+      -moz-transform: translate3d(0, 0, 0);
+    }
+    40%,
+    43% {
+      -moz-transform: translate3d(0, -6vh, 0);
+    }
+    70% {
+      -moz-transform: translate3d(0, -3vh, 0);
+    }
+    90% {
+      -moz-transform: translate3d(0, -1vh, 0);
+    }
+  }
+  @-o-keyframes bounce {
+    0%,
+    20%,
+    53%,
+    80%,
+    100% {
+      -o-transform: translate3d(0, 0, 0);
+    }
+    40%,
+    43% {
+      -o-transform: translate3d(0, -6vh, 0);
+    }
+    70% {
+      -o-transform: translate3d(0, -3vh, 0);
+    }
+    90% {
+      -o-transform: translate3d(0, -1vh, 0);
+    }
+  }
+  @keyframes bounce {
+    0%,
+    20%,
+    53%,
+    80%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    40%,
+    43% {
+      transform: translate3d(0, -6vh, 0);
+    }
+    70% {
+      transform: translate3d(0, -3vh, 0);
+    }
+    90% {
+      transform: translate3d(0, -1vh, 0);
+    }
+  }
+  
+  .u--bounce {
+    -webkit-animation: bounce 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-animation: bounce 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-animation: bounce 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation: bounce 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation-iteration-count: infinite;
+  
+    /* Pulse */
+    @-webkit-keyframes pulse {
+      0% {
+        -webkit-transform: scale3d(1, 1, 1);
+      }
+      50% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+      }
+      100% {
+        -webkit-transform: scale3d(1, 1, 1);
+      }
+    }
+    @-moz-keyframes pulse {
+      0% {
+        -moz-transform: scale3d(1, 1, 1);
+      }
+      50% {
+        -moz-transform: scale3d(1.1, 1.1, 1.1);
+      }
+      100% {
+        -moz-transform: scale3d(1, 1, 1);
+      }
+    }
+    @-o-keyframes pulse {
+      0% {
+        -o-transform: scale3d(1, 1, 1);
+      }
+      50% {
+        -o-transform: scale3d(1.1, 1.1, 1.1);
+      }
+      100% {
+        -o-transform: scale3d(1, 1, 1);
+      }
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale3d(1, 1, 1);
+      }
+      50% {
+        transform: scale3d(1.1, 1.1, 1.1);
+      }
+      100% {
+        transform: scale3d(1, 1, 1);
+      }
+    }
+  
+    .u--pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      -moz-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      -o-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    }
+  
+    /**ここから文字色とかを指定します**/
+    background: linear-gradient(
+      to right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -webkit-linear-gradient(
+      left,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -o-linear-gradient(
+      right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -moz-linear-gradient(
+      right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 100px;
+  }
+  
+  /**活動コーナーのスクロールメニュー**/
+  div.scrollmenu {
+    background-color: #ffedb3;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-left: 14px;
+    text-decoration: none;
+    padding: 60px;
+  }
+  div.scrollmenu a:hover {
+    background-color: #ffe79a;
+  }
+  
+  /**Slick用**/
+  .photoSlider .slick-slide {
+    width: auto;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  #adeleSlider .slick-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .photoSlider {
+    padding: 20px;
+  }
+  #reccomendButton {
+    background-color: transparent;
+  }
+  #text {
+    font-family: "Rampart One", sans-serif;
+  }
+  
